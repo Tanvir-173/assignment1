@@ -150,3 +150,61 @@ main{
     justify-content:space-around;
     align-items:center;
 }
+
+.lets-get-in-touch{
+    margin-top:100px;
+    display:flex;
+    gap:20px;
+   justify-content:space-between;
+   align-items:center;
+   background-color:#dbb0b0;
+   
+}
+
+.lets-get-in-touch input[type="text"]{
+    height:70px;
+    width:500px;
+    border-radius:5px;
+    display:block;
+    
+    
+}
+.lets-get-in-touch input[type="email"]{
+    height:70px;
+    width:500px;
+    border-radius:5px;
+    display:block;
+}
+.lets-get-in-touch textarea{
+    height:135px;
+    border-radius:5px;
+    width:500px;
+    
+
+}
+
+.lets-get-in-touch button{
+    display:block;
+}
+
+.lets-get-in-touch .lets-get-in-touch-title .Touch{
+    display:block;
+
+}
+.lets-get-in-touch .lets-get-in-touch-title{
+    font-size:100px;
+    font-weight: bold;
+}
+
+.get-in-touch{
+    font-size:16px;
+    font-weight: bold;
+    color:#FFFFFF;
+    background-color:#4E47FF;
+    /* width:fit-content; */
+    width:510px;
+    height:62px;
+    padding:12px,36px;
+    border-radius:5px;
+    border:none;
+}
