@@ -1,0 +1,89 @@
+
+.open-sans-normal {
+  /* font-family: "Open Sans", sans-serif; 
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; */
+
+    
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    margin:0 150px;
+}
+
+.nav-title{
+    font-size:34px;
+    color:#463FFE;
+}
+.nav-button{
+    font-size:16px;
+    font-weight: bold;
+    color:#FFFFFF;
+    background-color:#4E47FF;
+    /* width:fit-content; */
+    width:132px;
+    height:48px;
+    padding:12px,36px;
+    border-radius:5px;
+    border:none;
+}
+
+.banner-button{
+    font-size:10px;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color:#4E47FF;
+    /* width:fit-content; */
+    width:102px;
+    height:34px;
+    padding:12px,36px;
+    border-radius:5px;
+    border:none;
+    text-align:center;
+    margin-bottom:20px;
+    
+}
+
+
+.banner{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.banner-content .line-break{
+    display: block;
+    text-align: center;
+
+}
+
+.banner-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:0;
+
+}
+
+.banner-content h4{
+    font-size:60px;
+    
+    color:#252432;
+}
+
+.header{
+   background-image:url(../B12A01-landing-launchpad/Assets/Hero-bg.png); 
+}
