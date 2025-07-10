@@ -129,3 +129,24 @@ main{
     height:330px;
     border-radius:15px;
 }
+
+.productive-user-section{
+    padding:50px 140px;
+    text-align:center;
+    margin-top:130px;
+    background-color:#4E47FF;
+
+}
+
+.user-count{
+    font-size:50px;
+    font-weight: bold;
+    color:#ebebf0;
+    margin:0;
+}
+
+.productive-user-section-user-count{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
