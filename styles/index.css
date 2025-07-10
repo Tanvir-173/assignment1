@@ -40,6 +40,31 @@ nav{
     border:none;
 }
 
+.action-button{
+    font-size:16px;
+    font-weight: bold;
+    color:#FFFFFF;
+    background-color:#4E47FF;
+    /* width:fit-content; */
+    width:230px;
+    height:48px;
+    padding:12px,36px;
+    border-radius:5px;
+    border:none;
+
+}
+
+.action{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.action-content-line-break{
+     display:block;
+}
+
+
 .banner-button{
     font-size:10px;
     font-weight:bold;
@@ -86,4 +111,21 @@ nav{
 
 .header{
    background-image:url(../B12A01-landing-launchpad/Assets/Hero-bg.png); 
+}
+
+main{
+    max-width:1140px;
+    margin:0 auto;
+
+}
+
+.action{
+    margin-top:130px;
+
+}
+
+.action .action-image img{
+    width:300px;
+    height:330px;
+    border-radius:15px;
 }
