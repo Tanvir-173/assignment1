@@ -247,3 +247,54 @@ main{
     text-decoration:none;
     color:#252432;
 }
+
+.challeges-title{
+    font-weight: bold;
+    font-size:42px;
+    text-align:center;
+}
+
+.c-break{
+    display:block;
+}
+
+.reviewer{
+    display:flex;
+    gap:10px;
+}
+
+.reviewer-data{
+    display:flex;
+    flex-direction:column;
+    
+    
+}
+
+.reviewer-name,.date{
+    margin:0;
+}
+.c-title{
+    font-weight:bold;
+    font-size:15px;
+    margin-bottom:20px;
+
+}
+
+.c-image{
+    border-radius:30px;
+}
+
+.challence-items{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+}
+.challenge-item{
+    padding:34px;
+    box-shadow:2px 4px 4px 0px #000000 ;
+    border-radius:10px;
+}
+
+.challenges{
+    margin-top:100px;
+}
