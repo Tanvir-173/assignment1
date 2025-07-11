@@ -138,12 +138,18 @@ main{
 
 }
 
+.productive-user-section h3{
+    font-size:38px;
+}
+
 .user-count{
     font-size:50px;
     font-weight: bold;
     color:#ebebf0;
     margin:0;
 }
+
+
 
 .productive-user-section-user-count{
     display:flex;
@@ -207,4 +213,37 @@ main{
     padding:12px,36px;
     border-radius:5px;
     border:none;
+}
+ .logo-text .logo-text-break{
+    display:block;
+}
+
+.logo-heading{
+    font-size:90px;
+    color:#463FFE;
+    text-align:center;
+    margin:0;
+
+}
+
+.logo-text{
+    text-align:center;
+    margin:0;
+    
+}
+
+.logo{
+    margin-top:105px;
+}
+
+.logo-items{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-top:10px;
+}
+
+.items{
+    text-decoration:none;
+    color:#252432;
 }
